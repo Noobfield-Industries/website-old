@@ -1,5 +1,6 @@
 ---
 title: Welcome!
+layout: default
 ---
 
 We're a team of two making some cool games!
