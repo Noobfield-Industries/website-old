@@ -7,21 +7,23 @@ title: "Noobfield Industries"
     <title>{{ page.title }} - Noobfield</title>
   </head>
   <body>
-    <h1>{{ page.title }}</h1>
-    <hr>
-    <p>
-      {{ page.content }}
-    </p>
-
-    <hr>
-    <h2>Posts:</h2>
-    <ul>
-        <li>Latest: <a href="{{ pages.last.url }}">{{ pages.last.title }}</a></li>
-        {% for post in pages %}
-          <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-          </li>
-        {% endfor %}
-    </ul>
+    <div class="block">
+      <h1>{{ page.title }}</h1>
+      <hr>
+      <p>
+        {{ page.content }}
+      </p>
+    </div>
+    <div class="block">
+      <h2>Posts:</h2>
+      <ul>
+          <li>Latest: <a href="{{ pages.last.url }}">{{ pages.last.title }}</a></li>
+          {% for post in pages %}
+            <li>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+      </ul>
+    </div>
   </body>
 </html>

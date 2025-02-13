@@ -1,0 +1,16 @@
+body {
+    background-color: #6e99c9;
+}
+body::after {
+    background-image: url("/img/robricks.jpg");
+}
+
+.block {
+    background-color: #EEEEEE;
+    border: #aaa solid 1pt;
+    border-radius: 15pt;
+}
+* {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
