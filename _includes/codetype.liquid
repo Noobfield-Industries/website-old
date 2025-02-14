@@ -1,0 +1,15 @@
+<div class="snipblock">
+    <code>{{ include.name }}</code>
+    <ul class="hoz nodot">
+
+        {% if include.verified %}
+            <li>
+                <img src={{ include.verified }} alt="">
+            </li>
+            <li>
+                <img src="/icons/rosette.png" alt="Verified on the code.">
+            </li>
+        {% endif %}
+    </ul>
+
+</div>

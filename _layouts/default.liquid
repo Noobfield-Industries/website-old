@@ -10,9 +10,10 @@ title: "Noobfield Industries"
   <body>
     <div class="block">
       <h1>{{ page.title }}</h1>
+      <small>Posted on {{ page.date }}, </small>
       <hr>
       <p>
-        {{ page.content }}
+        {{ page.content | markdownify }}
       </p>
     </div>
     <div class="block">
