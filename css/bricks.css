@@ -1,14 +1,14 @@
 body {
+    background-image: url("/img/robricks.jpg");
+    background-repeat: no-repeat;
     background-color: #6e99c9;
 }
-body::after {
-    background-image: url("/img/robricks.jpg");
-}
-
 .block {
     background-color: #EEEEEE;
     border: #aaa solid 1pt;
     border-radius: 15pt;
+    padding: 10pt;
+    margin: 10pt 0;
 }
 * {
     color: black;
